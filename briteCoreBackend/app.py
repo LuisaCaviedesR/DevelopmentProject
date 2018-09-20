@@ -33,6 +33,18 @@ class RiskTypeDetail(Resource):
         Get a risk type  information by risk_type_key
 
         * Send an risk_type_key  as required field and returns type risk information.
+        ```
+        {
+            "insurer": "insurer associated with this risk",
+            "number": "risk id,shown in this exercise with the only purpose that serves as data to consume the detail service"
+            "name": "Risk name"
+            "description": "Risk detail information",
+            "created_at": "Creation Date",
+            "updated_at": "Last Update Date"
+            
+        }
+
+        ```
 
         """
         try:
