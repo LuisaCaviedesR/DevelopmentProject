@@ -1,6 +1,0 @@
-flask=
-flask_restplus=
-sqlalchemy=
-psycopg2>=2.7
-Flask-Migrate
-
